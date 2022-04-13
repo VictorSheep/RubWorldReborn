@@ -61,7 +61,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissiveStrengh: 0.5
+    - _EmissiveStrengh: 0.2
     - _GlossMapScale: 1
     - _Glossiness: 0.306
     - _GlossyReflections: 1
@@ -76,19 +76,19 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _yPosHigh: 4.48
-    - _yPosLow: -0.96
+    - _yPosLow: -4.8
     m_Colors:
-    - _Albedo: {r: 0.34834465, g: 0.5330526, b: 0.7169812, a: 1}
+    - _Albedo: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorHigh: {r: 0.9716981, g: 0.86740696, b: 0.27959237, a: 1}
     - _ColorLow: {r: 0.5283019, g: 0.4078524, b: 0.34140262, a: 1}
     - _ColorX: {r: 1, g: 0, b: 0.11936569, a: 1}
     - _ColorY: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
     - _EmissionColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-    - _LeftColorHigh: {r: 0.5612677, g: 0.7176471, b: 0.26666668, a: 1}
-    - _LeftColorLow: {r: 0.1467205, g: 0.10980391, b: 0.40392157, a: 1}
-    - _RightColorHigh: {r: 0.8429787, g: 0.33490568, b: 1, a: 1}
-    - _RightColorLow: {r: 0.4973864, g: 0.17332679, b: 0.8962264, a: 1}
-    - _YColorHigh: {r: 1, g: 1, b: 1, a: 1}
-    - _YColorLow: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftColorHigh: {r: 0.5058824, g: 0.94195706, b: 1, a: 1}
+    - _LeftColorLow: {r: 0, g: 0.53093976, b: 0.5372549, a: 1}
+    - _RightColorHigh: {r: 1, g: 0.6316417, b: 0.39999998, a: 1}
+    - _RightColorLow: {r: 0.6037736, g: 0.12277195, b: 0, a: 1}
+    - _YColorHigh: {r: 1, g: 0.9103774, b: 0.97417283, a: 1}
+    - _YColorLow: {r: 1, g: 0.49411762, b: 0.8436698, a: 1}
   m_BuildTextureStacks: []

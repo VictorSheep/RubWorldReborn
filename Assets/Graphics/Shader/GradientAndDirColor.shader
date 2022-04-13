@@ -67,17 +67,17 @@ Shader "Custom/yar"
             finalColor += rightGradient * max(0, dot(o.Normal, RIGHT));
 
             finalColor += yGradient * max(0, dot(o.Normal, UP));
-
-
+            
             // scale down to 0-1 values
             finalColor = saturate(finalColor);
 
             // how much should go to emissive
             //finalColor = tex2D(_MainTex, IN.uv_MainTex) * finalColor;
+            o.Albedo = finalColor;
             o.Emission = lerp(half3(0, 0, 0), finalColor, _EmissiveStrengh);
             
-            o.Albedo = finalColor.rgb;
-            o.Albedo *= _Albedo;
+            //o.Albedo = finalColor.rgb;
+            //o.Albedo *= _Albedo;
             o.Alpha = 1;
         }
         ENDCG
