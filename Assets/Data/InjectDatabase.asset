@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3795379d5a7b04788d7ab042649aa7, type: 3}
+  m_Name: InjectDatabase
+  m_EditorClassIdentifier: 
+  lookupDataPaths:
+  - Assets/Data
+  - Assets/Samples
+  lookupScriptPaths:
+  - Assets/Scripts
+  - Packages
+  dependencies:
+  - path: Assets/Data/InjectDatabase.asset
+    scriptableObject: {fileID: 11400000}
+    hasDependency: 0
+  - path: Assets/Data/SwitchBloc/SwitchBlocData.asset
+    scriptableObject: {fileID: 11400000, guid: 8746276dfc207db448c48a3dfafe7655, type: 2}
+    hasDependency: 0
+  - path: Assets/Data/GameEventSceneManagement/SceneStartLoadEvent.asset
+    scriptableObject: {fileID: 11400000, guid: 3b665891b5737a54d89b5389ecb43585, type: 2}
+    hasDependency: 1
+  - path: Assets/Data/GameEventSceneManagement/SceneLoadedEvent.asset
+    scriptableObject: {fileID: 11400000, guid: 3d80cdbed5099ea45ad4ea882d00c833, type: 2}
+    hasDependency: 1
+  - path: Assets/Data/BlocRot/BlocRotData.asset
+    scriptableObject: {fileID: 11400000, guid: ddb762c5c4dc01e4f91f28a4faf9eed2, type: 2}
+    hasDependency: 0
+  - path: Assets/Data/Character/Player_CharacterDisplacerData.asset
+    scriptableObject: {fileID: 11400000, guid: ee031760f23b929429253a020570e241, type: 2}
+    hasDependency: 0
+  failToAddDepdencies: []
+  pendingAutoAddDependencies: []
