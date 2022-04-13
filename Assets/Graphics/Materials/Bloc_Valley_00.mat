@@ -7,15 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gold
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_Name: Bloc_Valley_00
+  m_Shader: {fileID: 4800000, guid: 7fc8272e20674eb41a71dfc2aa68df3d, type: 3}
+  m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -41,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,20 +60,35 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
-    - _GlossMapScale: 0
-    - _Glossiness: 0.838
+    - _DstBlend: 0
+    - _EmissiveStrengh: 0.2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.306
     - _GlossyReflections: 1
-    - _Metallic: 0.04
-    - _Mode: 3
+    - _GradientStrength: 1
+    - _Metallic: 0
+    - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _ZWrite: 0
+    - _ZWrite: 1
+    - _yPosHigh: 4.48
+    - _yPosLow: -4.8
     m_Colors:
-    - _Color: {r: 0.89964676, g: 0, b: 1, a: 0.74509805}
-    - _EmissionColor: {r: 0.83580184, g: 0.7216981, b: 1, a: 1}
+    - _Albedo: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorHigh: {r: 0.9716981, g: 0.86740696, b: 0.27959237, a: 1}
+    - _ColorLow: {r: 0.5283019, g: 0.4078524, b: 0.34140262, a: 1}
+    - _ColorX: {r: 1, g: 0, b: 0.11936569, a: 1}
+    - _ColorY: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    - _EmissionColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+    - _LeftColorHigh: {r: 0.5058824, g: 0.94195706, b: 1, a: 1}
+    - _LeftColorLow: {r: 0, g: 0.53093976, b: 0.5372549, a: 1}
+    - _RightColorHigh: {r: 1, g: 0.6316417, b: 0.39999998, a: 1}
+    - _RightColorLow: {r: 0.6037736, g: 0.12277195, b: 0, a: 1}
+    - _YColorHigh: {r: 1, g: 0.9103774, b: 0.97417283, a: 1}
+    - _YColorLow: {r: 1, g: 0.49411762, b: 0.8436698, a: 1}
   m_BuildTextureStacks: []

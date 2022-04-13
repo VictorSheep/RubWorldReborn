@@ -245,7 +245,7 @@ PrefabInstance:
     - target: {fileID: 2380486657575794119, guid: 0ac733931e04935458eb4cd32d69f037, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e1923bbc09c0c794483af2ee17ffb263, type: 2}
+      objectReference: {fileID: 2100000, guid: c5acbf9e1246a21409d62cf18403b5df, type: 2}
     - target: {fileID: 3102438338637787840, guid: 0ac733931e04935458eb4cd32d69f037, type: 3}
       propertyPath: m_Name
       value: Bloc_Rot

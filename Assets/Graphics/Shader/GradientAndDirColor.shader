@@ -11,7 +11,6 @@ Shader "Custom/yar"
         _YColorLow ("Y Color Low", COLOR) = (1,1,1,1)
         _yPosLow ("Y Pos Low", Float) = 0
         _yPosHigh ("Y Pos High", Float) = 10
-        _Albedo ("Albedo", COLOR) = (0,0,0,1)
         _GradientStrength ("Graident Strength", Float) = 1
         _EmissiveStrengh ("Emissive Strengh ", Float) = 1
     }
@@ -37,7 +36,6 @@ Shader "Custom/yar"
         fixed4 _RightColorHigh;
         fixed4 _YColorHigh;
         fixed4 _YColorLow;
-        fixed4 _Albedo;
         half _yPosLow;
         half _yPosHigh;
         half _GradientStrength;
@@ -71,13 +69,10 @@ Shader "Custom/yar"
             // scale down to 0-1 values
             finalColor = saturate(finalColor);
 
-            // how much should go to emissive
-            //finalColor = tex2D(_MainTex, IN.uv_MainTex) * finalColor;
             o.Albedo = finalColor;
+            // how much should go to emissive
             o.Emission = lerp(half3(0, 0, 0), finalColor, _EmissiveStrengh);
             
-            //o.Albedo = finalColor.rgb;
-            //o.Albedo *= _Albedo;
             o.Alpha = 1;
         }
         ENDCG
