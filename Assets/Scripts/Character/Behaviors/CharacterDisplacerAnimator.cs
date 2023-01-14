@@ -37,12 +37,12 @@ namespace Rubworld.Character.Behavior
 
         private void UpdateIsFalling()
         {
-            if (_isFalling == _gravityApplier.IsFalling)
+            if (_isFalling == _gravityApplier.ShouldApplyGravity)
             {
                 return;
             }
 
-            _isFalling = _gravityApplier.IsFalling;
+            _isFalling = _gravityApplier.ShouldApplyGravity;
             _animator.SetBool(_animatorBoolIsFalling, _isFalling);
         }
 

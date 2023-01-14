@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BasicBlue
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -62,15 +62,15 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissiveStrengh: 0.9
-    - _GlossMapScale: 0.464
+    - _GlossMapScale: 0.457
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GradientStrength: 1
-    - _Metallic: 0.656
+    - _Metallic: 0.733
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 1
+    - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
@@ -79,12 +79,12 @@ Material:
     - _yPosLow: -1.17
     m_Colors:
     - _Albedo: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0.18396229, g: 0.5864673, b: 1, a: 1}
+    - _Color: {r: 0.1273585, g: 0.7277901, b: 1, a: 1}
     - _ColorHigh: {r: 0.2688679, g: 0.63574445, b: 1, a: 1}
     - _ColorLow: {r: 0, g: 0.2055145, b: 0.509434, a: 1}
     - _ColorX: {r: 0.0990566, g: 0.42283314, b: 1, a: 1}
     - _ColorY: {r: 0.6179246, g: 0.7661926, b: 1, a: 1}
-    - _EmissionColor: {r: 0.28568888, g: 0.44257903, b: 0.5660378, a: 1}
+    - _EmissionColor: {r: 0, g: 0.4092479, b: 0.7264151, a: 1}
     - _LeftColorHigh: {r: 1, g: 1, b: 1, a: 1}
     - _LeftColorLow: {r: 1, g: 1, b: 1, a: 1}
     - _RightColorHigh: {r: 0.8, g: 0.8, b: 0.8, a: 1}

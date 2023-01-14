@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 1320848563427730604}
   - component: {fileID: 719257109470912437}
   - component: {fileID: 2234338129226791418}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Switch
   m_TagString: Map
   m_Icon: {fileID: 0}
@@ -205,7 +205,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gravityDirection: {x: -0, y: -1, z: -0}
-  _gravityForce: -5
+  _gravityForce: -10
+  _floorDetectionEnabled: 0
+  _maxDistance: 0
+  _start: 0
+  _radius: 0
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   _rigidbody: {fileID: 719257109470912437}
 --- !u!1 &3923576044305590827
 GameObject:
@@ -219,7 +226,7 @@ GameObject:
   - component: {fileID: 8573998069373716823}
   - component: {fileID: 7029585780012118808}
   - component: {fileID: 6197309656616899242}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Map
   m_Icon: {fileID: 0}

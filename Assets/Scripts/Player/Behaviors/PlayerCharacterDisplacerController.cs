@@ -68,7 +68,7 @@ namespace Rubworld.Player.Behaviors
 
         private void UpdateDirectionFromInput()
         {
-            if (_gravityApplier.IsFalling)
+            if (_gravityApplier.ShouldApplyGravity)
             {
                 _characterDisplacer.SetDirection(Vector3.zero);
                 return;
