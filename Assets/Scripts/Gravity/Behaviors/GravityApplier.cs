@@ -12,7 +12,7 @@ namespace Rubworld.Gravity.Behaviors
         [SerializeField]
         private Vector3 _gravityDirection = Vector3.down;
         [SerializeField]
-        private float   _gravityForce     = 7f;
+        private float _gravityForce = 7f;
 
         [Header("FloorDetection")]
         [FormerlySerializedAs("Enable")]
